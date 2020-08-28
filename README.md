@@ -2,9 +2,11 @@
 
 This is the key parts in the setup, since terminal is the one of the most frequently used environment for SDE
 
-* Dracula
+* iTerm2
 
-  Dracula](https://draculatheme.com/terminal/) is the darm theme for Terminal.app
+  [iTerm2](https://www.iterm2.com/index.html) is more powerful terminal than the original one in Mac. It could provides copying by selecting and several other great functions.
+  * Set colors/themes: https://iterm2colorschemes.com/. `Japanesque` is recommended.
+  * Dedicated HotKey Window: https://www.iterm2.com/documentation-hotkey.html, we could set a key mapping to an opened window.
 
 * ZSH
 
@@ -38,13 +40,20 @@ This is the key parts in the setup, since terminal is the one of the most freque
     ```
 
   * Add [tmux plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) in oh-my-zsh.
-
     ```
   plugins=(
       git
       tmux
     )
     ```
+ 
+  * Configure
+    Enable Scrolling and changing panel with mouse:
+    ```
+    echo "set -g mouse on" >> ~/.tmux.conf
+    tmux source ~/.tmux.conf
+    ```
+    
   * Reference
     [tmux plugin shortcut](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux)
     
