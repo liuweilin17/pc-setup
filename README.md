@@ -34,19 +34,17 @@ This is the key parts in the setup, since terminal is the one of the most freque
   [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 
   * Intall tmux
-
     ```
     brew install tmux
     ```
-
   * Add [tmux plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux) in oh-my-zsh.
     ```
-  plugins=(
+    plugins=(
       git
       tmux
     )
     ```
- 
+
   * Configure
     Enable Scrolling and changing panel with mouse:
     ```
