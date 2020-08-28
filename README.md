@@ -52,6 +52,6 @@ This is the key parts in the setup, since terminal is the one of the most freque
 
 * Vim
 
-   provides abundant vim plugins, simply install it by following Installation section in`README.md`
+   provides abundant vim plugins, simply install it by following Installation section in [My Vim Setup](https://github.com/liuweilin17/dot-vimrc)
 
   
